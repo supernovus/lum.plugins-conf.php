@@ -1,0 +1,41 @@
+{
+  "name": "lum/lum-plugins-conf",
+  "description": "A simple configuration library",
+  "license": "MIT",
+  "authors":
+  [
+    {
+      "name": "Timothy Totten",
+      "email": "supernovus@gmail.com",
+      "role": "Original Author"
+    }
+  ],
+  "require":
+  {
+    "lum/lum-compat": "^2.6",
+    "lum/lum-data": "^1.0",
+    "lum/lum-arrays": "^2.0"
+  },
+  "require-dev":
+  {
+    "lum/lum-test": "^3.0"
+  },
+  "autoload":
+  {
+    "psr-4":
+    {
+      "Lum\\Plugins\\": "lib"
+    }
+  },
+  "scripts":
+  {
+    "test": "lumtest"
+  },
+  "extra":
+  {
+    "branch-alias":
+    {
+      "dev-main": "1.x-dev"
+    }
+  }
+}
